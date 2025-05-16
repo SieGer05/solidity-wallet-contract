@@ -10,3 +10,5 @@ const getBalance = async() => {
   const balance = await contract.methods.balance().call();
   console.log('Le solde est => ' + balance);
 }
+
+getBalance()
